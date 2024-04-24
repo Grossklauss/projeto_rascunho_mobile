@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Compras</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Calculadora de Compras</h1>
+    <form id="formulario">
+        <!-- Campo para inserir o nome do cliente -->
+        <label for="nome_cliente">Nome do Cliente:</label>
+        <input type="text" id="nome_cliente"><br>
+        <br>
+        <!-- Campos para inserir a quantidade de resistores, diodos e transistores -->
+        <label for="quantidade_resistores">Quantidade de Resistores:</label>
+        <input type="number" id="quantidade_resistores"><br>
+        <br>
+        <label for="quantidade_diodos">Quantidade de Diodos:</label>
+        <input type="number" id="quantidade_diodos"><br>
+        <br>
+        <label for="quantidade_transistores">Quantidade de Transistores:</label>
+        <input type="number" id="quantidade_transistores"><br>
+        <br>
+        <!-- Campos para exibir o total de desconto e o valor líquido -->
+        <label for="total_desconto">Total de Desconto:</label>
+        <input type="text" id="total_desconto" disabled><br>
+        <br>
+        <label for="valor_liquido">Valor Líquido a Pagar:</label>
+        <input type="text" id="valor_liquido" disabled><br>
+        <br>
+        <!-- Botão para calcular -->
+        <button type="submit" id="submit-btn">Calcular</button>       
+    </form> 
+    <script src="js/script.js"></script>
+</body>
+</html>
